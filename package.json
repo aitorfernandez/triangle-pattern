@@ -1,0 +1,13 @@
+{
+  "name": "triangle-pattern",
+  "version": "1.0.0",
+  "repository": "git@github.com:aitorfernandez/triangle-pattern.git",
+  "author": "Aitor Fernandez <helloimaitor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "uglify": "./node_modules/uglify-js/bin/uglifyjs src/sketch.js -o public/sketch.min.js --compress"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.4.9"
+  }
+}
